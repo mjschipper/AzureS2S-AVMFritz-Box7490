@@ -1,4 +1,10 @@
 # AzureS2S-AVMFritz-Box7490
+
+2025/05: Updated commands to create a S2S IPSec VPN with Fritz!box IPSec VPN. There have been some changes within azure that make creating a 'Basic', 'PolicyBased' gateway only available via the CLI commands. Also we can now use a FQDN for the Fritz!Box DNS name removing the need to update the IP via an Automation Account.
+
+**Also note that you must not use special characters within the Shared Secret or the IPSec VPN will not connect.**
+
+------------------------------------------------------------------------------
 Setup script for Azure S2S VPN and config for AVM Fritz!Box 7490
 
 If it breaks stuff or it doesnt work, i take no responsibility. I assume some Azure knowledge to use the details here.
